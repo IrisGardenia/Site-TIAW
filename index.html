@@ -2,7 +2,7 @@
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 <title>Hermes - Preço Imbatível, Entrega Veloz. </title>
 <link rel="stylesheet" href="style.css">
 <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
@@ -16,17 +16,17 @@
             <div class="icons">
             
             <div class="icon-container">
-                <a href="index2.html">
+                <a href="index.html">
                     <img src="user-icon.png" alt="Ícone de usuário">
                 </a>
             </div>
             <div class="icon-container">
-                <a href="index3.html">
+                <a href="index.html">
                     <img src="favorite-icon.png" alt="Ícone de item favorito">
                 </a>
             </div>
             <div class="icon-container">
-                <a href="index4.html">
+                <a href="index.html">
                     <img src="cart-icon.png" alt="Ícone de carrinho de compras">
                 </a>
             </div>
@@ -58,7 +58,7 @@
 
 <nav>
     <div class="card-one">
-        <img src="logo-hermes.png" width="500px" alt="Logo do site: ilustração de Hermes ">
+        <img src="logo-hermes.png" width="400px" alt="Logo do site: ilustração de Hermes ">
     </div>
 </nav>
 
@@ -69,6 +69,8 @@ function toggleMenu() {
         menu.classList.remove('open');
     } else {
         menu.classList.add('open');
+        menu.style.height = window.innerHeight + 'p';
+
     }
 }
 </script>
